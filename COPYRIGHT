@@ -1,0 +1,8 @@
+Skill: theory-physics-ppt
+Version: 0.2.1
+Author: Jinhui Guo
+Copyright (c) 2026 Jinhui Guo. All rights reserved.
+
+Release bundle note:
+- Only the reusable skill files are packaged.
+- Example source papers, temporary build products, and generated outputs are excluded.

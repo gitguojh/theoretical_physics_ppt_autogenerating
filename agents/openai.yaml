@@ -1,0 +1,8 @@
+interface:
+  display_name: "Theory Physics PPT"
+  short_description: "Plan theory-physics research PPTs with automatic review/optimization and TeX-aware formalism chains; prefer TeX/arXiv source or clean Markdown over PDF-only input"
+  brand_color: "#8B1E3F"
+  default_prompt: "Use $theory-physics-ppt to turn my paper, PDF, Markdown note, arXiv source, or achievement summary into a conference, assessment, or group-meeting deck plan that uses either the built-in academic style or my own `.pptx` template, keeps my presenter information in the cover/footer, follows the source paper's actual section logic whenever the source quality allows it, reconstructs section-level formalism chains from TeX/arXiv source when available, adapts stock slide text to my language and audience, renders only a small per-slide list of key terms in blue, automatically reviews and optimizes the slide plan before final authoring, runs the shared render-layout guard so colored callouts really contain their text and export stops on overflow/collision, and cites non-original content slide by slide. Prefer TeX/arXiv source or a clean Markdown conversion over PDF-only input whenever possible."
+
+policy:
+  allow_implicit_invocation: true

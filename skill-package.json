@@ -1,0 +1,44 @@
+{
+  "name": "theory-physics-ppt",
+  "version": "0.2.1",
+  "author": "Jinhui Guo",
+  "license": "Proprietary",
+  "copyright": "Copyright (c) 2026 Jinhui Guo. All rights reserved.",
+  "entrypoint": "SKILL.md",
+  "agent_metadata": "agents/openai.yaml",
+  "package_kind": "codex-skill",
+  "summary": "Theory-physics presentation planning skill with TeX-aware source extraction, automatic review/optimization, dual built-in-or-template style modes, and render-level layout validation for PowerPoint authoring.",
+  "included_files": [
+    ".gitignore",
+    "COPYRIGHT",
+    "LICENSE",
+    "README.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "references/input_formats.md",
+    "references/workflow.md",
+    "scripts/build_slide_plan.py",
+    "scripts/clean_pptx_placeholders.py",
+    "scripts/extract_research_source.py",
+    "scripts/package_skill_release.py",
+    "scripts/profile_ppt_template.py",
+    "scripts/render_layout_guard.mjs",
+    "scripts/review_deck_plan.py",
+    "scripts/run_ppt_workflow.py",
+    "scripts/theory_ppt_lib.py",
+    "skill-package.json",
+    "templates/.gitkeep"
+  ],
+  "excluded_notes": [
+    "outputs/**: generated deck artifacts are excluded from the release bundle.",
+    "tmp/**: temporary build products and previews are excluded from the release bundle.",
+    "templates/*.pptx: local or personal PowerPoint templates are excluded from the public release; users can add their own later.",
+    "templates/*.pdf: sample input papers are excluded from redistribution.",
+    "templates/arXiv-*/**: sample arXiv source packages are excluded from redistribution.",
+    ".DS_Store: local Finder metadata is excluded."
+  ],
+  "upload_targets": [
+    "Codex skill marketplace",
+    "GitHub repository or release archive"
+  ]
+}
