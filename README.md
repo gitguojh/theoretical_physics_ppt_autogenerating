@@ -172,16 +172,6 @@ These are planning artifacts. They are then consumed by the PowerPoint authoring
 - Custom template profiling is intentionally lightweight and does not fully understand arbitrary PowerPoint masters semantically
 - Final scientific judgment still benefits from a human pass, especially for dense or highly technical papers
 
-## Release Notes
-
-The repository includes a clean release packager:
-
-- [scripts/package_skill_release.py](./scripts/package_skill_release.py)
-
-It produces:
-
-- a clean uploadable skill directory
-- a zip archive suitable for GitHub releases or a skill marketplace upload
 
 ## Copyright
 
